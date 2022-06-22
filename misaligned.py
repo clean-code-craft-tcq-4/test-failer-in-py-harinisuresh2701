@@ -12,4 +12,4 @@ def formatter(pairNum, Major, Minor):
     return formatted_string
 def print_color_map_on_console(String):
     for i in String:
-        print (i,"\n")e
+        print (i,"\n")
