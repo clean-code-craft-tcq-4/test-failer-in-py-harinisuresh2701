@@ -1,5 +1,5 @@
 import tshirts
-// Testing all the boundary conditions
+#Testing all the boundary conditions
 assert(tshirts.size(35) == 'S')
 assert(tshirts.size(38) == 'S')
 assert(tshirts.size(40) == 'M')
