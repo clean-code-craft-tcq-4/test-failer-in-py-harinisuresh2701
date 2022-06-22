@@ -12,9 +12,4 @@ def formatter(pairNum, Major, Minor):
     return formatted_string
 def print_color_map_on_console(String):
     for i in String:
-        print (i,"\n")
-result, final_string = create_printable_string()
-print_color_map_on_console(final_string)
-assert(result == 25)
-assert(formatter(10, "Black", "Blue").find("|") == formatter(0, "White" ,"Blue"))
-print("All is well (maybe!)\n")
+        print (i,"\n")e
