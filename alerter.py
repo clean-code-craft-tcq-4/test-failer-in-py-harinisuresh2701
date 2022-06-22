@@ -1,4 +1,4 @@
-import Test_alerter
+import Network_Stub_Code
 alert_failure_count = 0
 Threshold_temp = 100
 def network_alert_main_code(celcius):
@@ -13,7 +13,7 @@ def network_alert_main_code(celcius):
 
 def alert_in_celcius(farenheit):
     celcius = (farenheit - 32) * 5 / 9
-    returnCode = Test_alerter.(celcius)
+    returnCode = Network_Stub_Code.network_alert_stub(celcius)
     if returnCode != 200:
         # non-ok response is not an error! Issues happen in life!
         # let us keep a count of failures to report
