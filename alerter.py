@@ -5,7 +5,7 @@ def network_alert_main_code(celcius):
     # Return 200 for ok
     # Return 500 for not-ok
     # stub always succeeds and returns 200 :
-    if celcius < Threshold_temp :
+    if celcius < 100 :
         return 200
     else:
         return 500
@@ -14,7 +14,7 @@ def network_alert_stub(celcius):
     # This is the real production code for network_alert
     # Return 200 for ok
     # Return 500 for not-ok
-    if celcius < Threshold_Temp:
+    if celcius < 100:
         return 200
     else :
         return 500
